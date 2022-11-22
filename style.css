@@ -1,0 +1,207 @@
+body {
+    margin: 0; padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    /*background: linear-gradient(rgb(0, 94, 6), black, rgb(13, 113, 19), black);*/
+    color: white;
+    overflow-x: hidden;
+    text-shadow: 1px 1px 4px black;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#container {
+    min-height: 100vh;
+}
+/* HEADER */
+
+#header {
+    background: linear-gradient( rgba(0,0,0), rgba(0,0,0,0));
+    width: 100vw;
+    position: fixed;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+    height: 60px;
+    z-index: 1;
+}
+#header div {
+    font-size: 25px;
+}
+
+#header ul {
+    margin-top: 20px;
+}
+#header ul li {
+    list-style: none;
+    margin: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+#header ul li a {
+    color: white;
+    text-decoration: none;
+    transition: .3s;
+}
+#header ul li a:hover {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+/* HOME */
+
+#home {
+    background: linear-gradient(rgb(12, 116, 12), black);
+    width: 100vw;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+#home div {
+    width: 80%;
+}
+#home div h1 {
+    text-shadow: 1px 1px 3px black;
+    margin-top: 80px;
+}
+#home ul li {
+}
+#home img {
+    width: 90%;
+    box-shadow: 1px 1px 5px black;
+}
+
+/* CAUSAS */
+
+#causas {
+    background: linear-gradient(black, green);
+    min-height: 100vh; width: 100vw;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+#causas div {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#causas div iframe {
+    width: 90%;
+}
+
+/* MAPA MENTAL */
+
+#mindMap {
+    min-height: 100vh;
+    flex-direction: column;
+    background: linear-gradient( green , rgba(0,0,0,0));
+}
+#mindMap h2 {
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+#mindMap img {
+    width: 60%;
+    box-shadow: 1px 1px 5px white;
+}
+
+/* COMBATES */
+
+#combates {
+    background: linear-gradient( rgba(0,0,0,0), green);
+    min-height: 100vh; width: 100vw;
+    flex-direction: column;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-top: 100vh;
+}
+#combatesArea {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#combatesArea div {
+    width: 80%;
+}
+
+#combatesArea div h2 {
+    margin-top: 50px;
+}
+
+#combates img {
+    width: 90%;
+}
+
+/* FASES */
+
+#fases {
+    background: linear-gradient( green , black);
+    min-height: 100vh; width: 100vw;
+    flex-direction: column;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+#fases #h2 {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+#fases ul li {
+    margin: 10px;
+}
+/* FIM */
+
+#fim {
+    background: linear-gradient( black, green);
+    min-height: 100vh; width: 100vw;
+    flex-direction: column;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+#fim #fimTitle {
+    width: 100%;
+    text-align: center;
+}
+#fim img {
+    width: 300px;
+    margin: 10px;
+    border: 1px solid black;
+    box-shadow: 1px 1px 5px black;
+}
+
+/* CONSEQUENCIAS */
+
+#consequencias {
+    background: linear-gradient( green , rgba(0,0,0));
+    min-height: 100vh; width: 100vw;
+    flex-direction: column;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+#imgDiv {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    width: 300px;
+}
+
+/* FORMULARIO */
+
+#form {
+    background: linear-gradient( rgba(0,0,0), green);
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+#form form {
+    flex-direction: column;
+}
+
+/* IMAGEM DE FUNDO */
+
+#fundoWpp img {
+    width: 100vw;
+    position: fixed;
+    z-index: -1;
+}
